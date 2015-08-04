@@ -1,0 +1,24 @@
+$80/B091: LoadObjectDynamic()
+ 80/B0C7
+
+$80/B117: ClearObjectsTiles()
+ 80/B129
+
+$80/B436: LoadTilesDynamic()
+ 80/B4BF
+
+80B4E7~80B56D: LoadPaletteDynamic()
+
+80BAC1~80BB53: LoadLevel()
+
+80BB54~80BBFE: load layout
+80BBFF~80BC44: LoadBackLayout()
+
+80BC45~80BC5B: ClearLevelLayout()
+
+$80/DB5A: ClearObjectSomewhatData()
+ 80/DB70
+
+
+$80/E68E: GetLevelCheckpointPointer()
+	; Read: Level, Level Point

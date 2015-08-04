@@ -1,0 +1,10 @@
+PageUP / PageDOWN: Scroll between levels
+Q / W: Change Objects
+A / S: Change Palettes
+Z / X: Change Tiles
+O / P: Change level point
+S / D: Change debug infos
+D:     Debug info
+B:     Background viewer
+C:     Checkpoint viewer
+E:     Collision viewer

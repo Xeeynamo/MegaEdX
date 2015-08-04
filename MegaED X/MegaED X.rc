@@ -1,0 +1,359 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Inglese (Stati Uniti) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MEGAEDX             ICON                    "MegaED X.ico"
+IDI_SMALL               ICON                    "small.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_MEGAEDX MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open",                       ID_FILE_OPEN
+        MENUITEM "&Save",                       ID_FILE_SAVE
+        MENUITEM SEPARATOR
+        POPUP "&Import VRAM"
+        BEGIN
+            MENUITEM "From a SNES game",            ID_IMPORT_SNES
+            MENUITEM "From a GENESIS game",         ID_IMPORT_GEN
+            MENUITEM "From a GBA game",             ID_IMPORT_GBA
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Settings",                    ID_FILE_SETTINGS
+        MENUITEM "E&xit",                       IDM_EXIT
+    END
+    POPUP "&Editor"
+    BEGIN
+        MENUITEM "&Palettes Editor",            ID_EDITOR_PALED
+        MENUITEM "&Tiles Editor",               ID_EDITOR_TILESETED
+        MENUITEM "&Map Editor",                 ID_EDITOR_MAPED
+        MENUITEM "&Block Editor",               ID_EDITOR_BLOCKED
+        MENUITEM "&Scenes Editor",              ID_EDITOR_SCENED
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About",                      IDM_ABOUT
+        MENUITEM "Donate",                      ID_HELP_DONATE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_MEGAEDX ACCELERATORS
+BEGIN
+    "?",            IDM_ABOUT,              ASCII,  ALT
+    "/",            IDM_ABOUT,              ASCII,  ALT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 213, 121
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About MegaED X"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "Version 1.0",IDC_STATIC,118,73,51,8,SS_NOPREFIX,WS_EX_TRANSPARENT
+    LTEXT           "Halloween release\nDeveloped by Xeeynamo\nxeeynamo.blogspot.com",IDC_STATIC,118,86,84,24,0,WS_EX_TRANSPARENT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 209
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 117
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_APP_TITLE           "MegaED X"
+    IDC_MEGAEDX             "MEGAEDX"
+END
+
+#endif    // Inglese (Stati Uniti) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Italiano (Italia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ITA)
+LANGUAGE LANG_ITALIAN, SUBLANG_ITALIAN
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PAL DIALOGEX 0, 0, 171, 92
+STYLE DS_ABSALIGN | DS_SYSMODAL | DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Palette Editor"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_TILESET DIALOGEX 0, 0, 228, 158
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST | WS_EX_TOOLWINDOW
+CAPTION "Tileset Editor"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_PALETTEN,199,2,26,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_PALETTES,"msctls_updown32",UDS_WRAP | UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,213,2,11,14
+    LTEXT           "Palette",IDC_STATIC,174,4,24,8
+    LTEXT           "Locked in ASM",IDC_LTILEPROP,174,33,51,8
+    LTEXT           "Tile N. 000",IDC_LTILEINDEX,174,21,36,8
+END
+
+IDD_MAP DIALOGEX 0, 0, 243, 158
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST | WS_EX_TOOLWINDOW
+CAPTION "Tile Mapping Editor"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Map N. 000",IDC_LMAPINDEX,188,4,38,8
+    CONTROL         "Flipped",IDC_MAPFLIP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,188,122,37,10
+    CONTROL         "Mirrored",IDC_MAPMIRROR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,188,134,40,10
+    CONTROL         "Up Layer",IDC_MAPUPLAYER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,188,146,40,10
+    LTEXT           "Pal",IDC_STATIC,189,110,10,8
+    LTEXT           "Til",IDC_STATIC,189,95,8,8
+    LTEXT           "Col",IDC_STATIC,188,63,11,8
+END
+
+IDD_BLOCK DIALOGEX 0, 0, 243, 158
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST | WS_EX_TOOLWINDOW
+CAPTION "Block structure Editor"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Block N. 000",IDC_LBLOCKINDEX,188,4,40,8
+END
+
+IDD_SCENE DIALOGEX 0, 0, 183, 172
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST | WS_EX_TOOLWINDOW
+CAPTION "Scene structure editor"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Scene #00",IDC_SCENED_LSCENE,5,160,36,8
+    LTEXT           "Block",IDC_STATIC,110,160,17,8
+END
+
+IDD_SETTINGS DIALOGEX 0, 0, 142, 74
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Settings"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EMUPATH,12,19,124,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Emulator path",IDC_STATIC,7,7,46,8
+    PUSHBUTTON      "Erase path",IDC_ERASEEMUPATH,85,37,50,14
+    CONTROL         "Load last ROM at startup",IDC_LOADROMSTARTUP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,55,95,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_PAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 169
+        TOPMARGIN, 1
+    END
+
+    IDD_TILESET, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 227
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 156
+    END
+
+    IDD_MAP, DIALOG
+    BEGIN
+        RIGHTMARGIN, 242
+    END
+
+    IDD_BLOCK, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        TOPMARGIN, 2
+    END
+
+    IDD_SCENE, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        TOPMARGIN, 5
+    END
+
+    IDD_SETTINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 138
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 70
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041004b0"
+        BEGIN
+            VALUE "CompanyName", "Xeeynamo"
+            VALUE "FileDescription", "Megaman X Editor"
+            VALUE "FileVersion", "1.0.0.0"
+            VALUE "InternalName", "MegaED X.exe"
+            VALUE "LegalCopyright", "Xeeynamo (C) 2010"
+            VALUE "OriginalFilename", "MegaED X.exe"
+            VALUE "ProductName", "MegaED X"
+            VALUE "ProductVersion", "1.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x410, 1200
+    END
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_TELEPORT            BITMAP                  "Resources\\Teleport.bmp"
+IDB_XSPRITE             BITMAP                  "Resources\\X.bmp"
+IDB_TOOLBAR             BITMAP                  "Resources\\Toolbar.bmp"
+IDB_MEGAEDXLOGO         BITMAP                  "Resources\\MegaEDXLogo.bmp"
+#endif    // Italiano (Italia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,5 @@
+1.1:
+ - Added support for ROMs with an header
+ - Now the editor show the correct rom name on title
+ - Optimized the use of STDLIB/WinApi's functions
+ - Correct data overflow at collision and tiles commands in Tilemap Editor

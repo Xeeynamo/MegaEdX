@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Win32">
+      <UniqueIdentifier>{540e6ee2-5062-4c3a-985f-eea0e95e2ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{30671f20-5e01-4604-b0dc-40fde7e0f7a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Game">
+      <UniqueIdentifier>{2c1d8296-6c58-45be-aabc-4337f426af34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Console">
+      <UniqueIdentifier>{c9a8111d-b46a-4287-b8ba-314d44df874e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Editor">
+      <UniqueIdentifier>{bb14f183-5b45-4bbd-b08f-2f5d1aa534a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinControls">
+      <UniqueIdentifier>{3b97515b-e8d9-44a7-a5fa-79ca3f8c144d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Docs">
+      <UniqueIdentifier>{5db8132c-9cb7-4603-9a4c-52aa847b0621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Docs\mmx1">
+      <UniqueIdentifier>{fc77fa90-f45c-40fa-80c8-0bf8d1cb07d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Docs\mmx2">
+      <UniqueIdentifier>{05ebf31f-3594-4ea7-9818-ab70a9e267df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Docs\mmx3">
+      <UniqueIdentifier>{1152f2b5-cc23-42eb-8c19-e997f2a5a864}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="MegaED X.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Cazzate\Teleport.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Cazzate\X.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\MegaEDXLogo.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MegaED X.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CompressionCore.h">
+      <Filter>Core\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="MegaEDCore.h">
+      <Filter>Core\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="MMXCore.h">
+      <Filter>Core\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderED.h">
+      <Filter>Core\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="SNESCore.h">
+      <Filter>Core\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="NDSCore.h">
+      <Filter>Core\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="WinCtrl.h">
+      <Filter>WinControls</Filter>
+    </ClInclude>
+    <ClInclude Include="FileDialog.h">
+      <Filter>WinControls</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Toolbar.h">
+      <Filter>WinControls</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vram.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scrollbar.cpp">
+      <Filter>WinControls</Filter>
+    </ClCompile>
+    <ClCompile Include="spinbox.cpp">
+      <Filter>WinControls</Filter>
+    </ClCompile>
+    <ClCompile Include="statusbar.cpp">
+      <Filter>WinControls</Filter>
+    </ClCompile>
+    <ClCompile Include="MapProc.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockProc.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="TileProc.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="PaletteProc.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MegaED X.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutDialog.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="CompressionCore.cpp">
+      <Filter>Core\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="MegaEDCore.cpp">
+      <Filter>Core\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="MMXCore.cpp">
+      <Filter>Core\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderED.cpp">
+      <Filter>Core\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="SNESCore.cpp">
+      <Filter>Core\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="NDSCore.cpp">
+      <Filter>Core\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="FileDialog.cpp">
+      <Filter>WinControls</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneProc.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolbar.cpp">
+      <Filter>WinControls</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsProc.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MegaED X.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Docs\commands.txt">
+      <Filter>Docs</Filter>
+    </Text>
+    <Text Include="Docs\Changelog.txt">
+      <Filter>Docs</Filter>
+    </Text>
+    <Text Include="Docs\mmx2_ram.txt">
+      <Filter>Docs\mmx2</Filter>
+    </Text>
+    <Text Include="Docs\mmx2_others.txt">
+      <Filter>Docs\mmx2</Filter>
+    </Text>
+    <Text Include="Docs\mmx3_offsets.txt">
+      <Filter>Docs\mmx3</Filter>
+    </Text>
+    <Text Include="Docs\mmx3_others.txt">
+      <Filter>Docs\mmx3</Filter>
+    </Text>
+    <Text Include="Docs\mmx3_ram.txt">
+      <Filter>Docs\mmx3</Filter>
+    </Text>
+    <Text Include="Docs\mmx3_rom.txt">
+      <Filter>Docs\mmx3</Filter>
+    </Text>
+    <Text Include="Docs\mmx1_Ram.txt">
+      <Filter>Docs\mmx1</Filter>
+    </Text>
+    <Text Include="Docs\mmx1_RomPointers.txt">
+      <Filter>Docs\mmx1</Filter>
+    </Text>
+    <Text Include="Docs\mmx1_RomRoutines.txt">
+      <Filter>Docs\mmx1</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+0x00 Intro Stage
+0x01 Morph Moth
+0x02 Wire Sponge
+0x03 Bubble Crab
+0x04 Flame Stag
+0x05 Magna Centipede
+0x06 Crystal Snail
+0x07 Overdrive Ostrich
+0x08 Wheel Gator
+0x09 Sigma Stage 1
+0x0A Sigma Stage 2
+0x0B Sigma Stage 3
+0x0C Sigma Stage 4

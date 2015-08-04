@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="BlockProc.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="2092" topLine="62" />
+	</File>
+	<File name="ImportParam.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2044" topLine="59" />
+	</File>
+	<File name="MegaED X.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="6156" topLine="168" />
+	</File>
+	<File name="MegaED X.rc" open="0" top="0" tabpos="0">
+		<Cursor position="572" topLine="0" />
+	</File>
+	<File name="PaletteProc.cpp" open="1" top="1" tabpos="0">
+		<Cursor position="1963" topLine="23" />
+	</File>
+	<File name="RenderED.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="5935" topLine="163" />
+	</File>
+	<File name="Settings.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="259" topLine="0" />
+	</File>
+	<File name="SuperFunctions.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="540" topLine="0" />
+	</File>
+	<File name="Toolbar.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="993" topLine="7" />
+	</File>
+	<File name="resource.h" open="0" top="0" tabpos="0">
+		<Cursor position="255" topLine="0" />
+	</File>
+	<File name="stdafx.h" open="0" top="0" tabpos="1">
+		<Cursor position="42" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

@@ -1,0 +1,146 @@
+# depslib dependency file v1.0
+1288303134 source:c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\aboutdialog.cpp
+	"MegaED X.h"
+
+1288658492 c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\megaed x.h
+	"stdafx.h"
+	"MegaEDCore.h"
+	"SNESCore.h"
+	"NDSCore.h"
+	"MMXCore.h"
+	"RenderED.h"
+	"CompressionCore.h"
+	"Settings.h"
+	"FileDialog.h"
+	"WinCtrl.h"
+	"Toolbar.h"
+	"resource.h"
+	"ResourceX.h"
+
+1288692611 c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\stdafx.h
+	"targetver.h"
+	<windows.h>
+	<WinGDI.h>
+	<CommDlg.h>
+	<CommCtrl.h>
+	<ShellAPI.h>
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+
+1288693277 c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\targetver.h
+
+1287414799 c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\megaedcore.h
+	"MegaED X.h"
+	"CompressionCore.h"
+
+1288288922 c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\compressioncore.h
+	<Windows.h>
+
+1287519042 c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\snescore.h
+	"MegaED X.h"
+
+1287522578 c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\ndscore.h
+	"MegaED X.h"
+
+1288287254 c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\mmxcore.h
+	"MegaED X.h"
+
+1287931800 c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\rendered.h
+	"MegaED X.h"
+
+1288303661 c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\settings.h
+	"stdafx.h"
+
+1287583108 c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\filedialog.h
+	"stdafx.h"
+
+1288657240 c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\winctrl.h
+
+1288084308 c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\toolbar.h
+	"stdafx.h"
+
+1288637830 c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\resource.h
+
+1288298652 c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\resourcex.h
+
+1288423636 source:c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\blockproc.cpp
+	"MegaED X.h"
+
+1288289067 source:c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\compressioncore.cpp
+	"CompressionCore.h"
+
+1288265463 source:c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\debuginfo.cpp
+	"MegaED X.h"
+
+1288634447 source:c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\filedialog.cpp
+	"FileDialog.h"
+
+1288636636 source:c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\functions.cpp
+	"MegaED X.h"
+
+1288638240 source:c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\importparam.cpp
+	"MegaED X.h"
+
+1288644965 source:c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\mmxcore.cpp
+	"MegaED X.h"
+
+1288659121 source:c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\mapproc.cpp
+	"MegaED X.h"
+
+1288658512 source:c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\megaed x.cpp
+	"MegaED X.h"
+
+1288638376 source:c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\megaed x.rc
+	"resource.h"
+	"targetver.h"
+	"windows.h"
+
+1288636545 source:c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\megaedcore.cpp
+	"MegaED X.h"
+
+1287522564 source:c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\ndscore.cpp
+	"NDSCore.h"
+
+1288697774 source:c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\paletteproc.cpp
+	"MegaED X.h"
+
+1288694430 source:c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\rendered.cpp
+	"MegaED X.h"
+
+1287519068 source:c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\snescore.cpp
+	"MegaED X.h"
+
+1288195507 source:c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\sceneproc.cpp
+	"MegaED X.h"
+
+1288447577 source:c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\settings.cpp
+	"Settings.h"
+
+1288210292 source:c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\settingsproc.cpp
+	"MegaED X.h"
+
+1288634879 source:c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\superfunctions.cpp
+	"MegaED X.h"
+
+1288334631 source:c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\tileproc.cpp
+	"MegaED X.h"
+
+1288638714 source:c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\toolbar.cpp
+	"Toolbar.h"
+
+1288655425 source:c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\winmain.cpp
+	"MegaED X.h"
+
+1284555981 source:c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\scrollbar.cpp
+	"MegaED X.h"
+
+1288659026 source:c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\spinbox.cpp
+	"MegaED X.h"
+
+1283249929 source:c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\statusbar.cpp
+	"MegaED X.h"
+
+1283250022 source:c:\users\administrator\documents\visual studio 2010\projects\megaed x\megaed x\vram.cpp
+	"MegaED X.h"
+

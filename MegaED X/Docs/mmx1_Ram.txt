@@ -1,0 +1,28 @@
+7E0300  : Palette
+
+7E0BAD.w: X Position
+7E0BAF.b: Unknow
+7E0BB0.w: Y Position
+
+7E1F08.b: Object pointer
+7E1F09.b: Tiles pointer
+7E1F0A.b: Palette pointer
+
+7E1F7A.w: Level
+7E1F81.w: Level Point
+7E1F87.w: Sting Chameleon flag
+7E1F8F.w: Spark Mandrill flag
+7E1F95.w: Flame Mammoth flag
+
+7E2000~A600: Map Placing
+7EA600~E800: Map Background Placing
+7EE800~EC00: Level Layout
+7EEC00~F000: Background Layout
+7EF000~F800: Current map placing?
+7EF800~FA00: Somewhat linked with objects
+7EFA00~FE00: Somewhat linked with objects
+
+
+Objects relative
+7E0E70
+7E1628

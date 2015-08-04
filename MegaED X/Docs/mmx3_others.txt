@@ -1,0 +1,67 @@
+0x00 Intro Stage
+0x01 Blast Hornet
+0x02 Blizzard Buffalo
+0x03 Gravity Beetle
+0x04 Toxic Seahorse
+0x05 Volt Catfish
+0x06 Crush Crawfish
+0x07 Tunnel Rhino
+0x08 Neon Tiger
+0x09 Vile Stage
+0x0A Doppler Stage 1
+0x0B Doppler Stage 2a
+0x0C Doppler Stage 3
+0x0D Final Stage
+0x0E Doppler Stage 2b
+
+Pointer loading order:
+ -0x10 Layout
+ -0x18 Scenes
+ -0x20 Blocks
+ -???? Maps
+
+
+Take Level Layout pointer
+$00/BD19 BD B3 89    LDA $89B3,x[$06:89B6]   A:0003 X:0003 Y:0000 P:envmXdIzc
+$00/BD1E BD B5 89    LDA $89B5,x[$06:89B5]   A:F800 X:0000 Y:0000 P:eNvmXdIzc
+$00/BD21 85 12       STA $12    [$00:0012]   A:8635 X:0000 Y:0000 P:eNvmXdIzc
+$00/BD23 BD 22 8A    LDA $8A22,x[$06:8A22]   A:8635 X:0000 Y:0000 P:eNvmXdIzc
+$00/BD26 85 18       STA $18    [$00:0018]   A:8000 X:0000 Y:0000 P:eNvmXdIzc
+$00/BD28 BD 24 8A    LDA $8A24,x[$06:8A24]   A:8000 X:0000 Y:0000 P:eNvmXdIzc
+$00/BD2B 85 1A       STA $1A    [$00:001A]   A:0038 X:0000 Y:0000 P:envmXdIzc
+$00/BD2D BD 91 8A    LDA $8A91,x[$06:8A91]   A:0038 X:0000 Y:0000 P:envmXdIzc
+$00/BD30 85 20       STA $20    [$00:0020]   A:8000 X:0000 Y:0000 P:eNvmXdIzc
+$00/BD32 BD 93 8A    LDA $8A93,x[$06:8A93]   A:8000 X:0000 Y:0000 P:eNvmXdIzc
+$00/BD35 85 22       STA $22    [$00:0022]   A:D816 X:0000 Y:0000 P:eNvmXdIzc
+$00/BD37 BD 00 8B    LDA $8B00,x[$06:8B00]   A:D816 X:0000 Y:0000 P:eNvmXdIzc
+$00/BD3A 8D C5 09    STA $09C5  [$06:09C5]   A:8000 X:0000 Y:0000 P:eNvmXdIzc
+$00/BD3D BD 6F 8B    LDA $8B6F,x[$06:8B6F]   A:8000 X:0000 Y:0000 P:eNvmXdIzc
+$00/BD40 8D C2 09    STA $09C2  [$06:09C2]   A:D000 X:0000 Y:0000 P:eNvmXdIzc
+$00/BD43 E2 20       SEP #$20                A:D000 X:0000 Y:0000 P:eNvmXdIzc
+$00/BD45 BD 02 8B    LDA $8B02,x[$06:8B02]   A:D000 X:0000 Y:0000 P:eNvMXdIzc
+$00/BD48 8D C7 09    STA $09C7  [$06:09C7]   A:D018 X:0000 Y:0000 P:envMXdIzc
+$00/BD4B BD 71 8B    LDA $8B71,x[$06:8B71]   A:D018 X:0000 Y:0000 P:envMXdIzc
+$00/BD4E 8D C4 09    STA $09C4  [$06:09C4]   A:D014 X:0000 Y:0000 P:envMXdIzc
+
+First level:
+Blocks: 168000
+
+
+Maybe CheckPoint Pointer:
+$00/E601 C2 20       REP #$20                A:0159 X:00FE Y:0006 P:envMxdIzC
+$00/E603 AD B5 1F    LDA $1FB5  [$06:1FB5]   A:0159 X:00FE Y:0006 P:envmxdIzC
+$00/E606 29 FF 00    AND #$00FF              A:0000 X:00FE Y:0006 P:envmxdIZC
+$00/E609 0A          ASL A                   A:0000 X:00FE Y:0006 P:envmxdIZC
+$00/E60A 8D 00 00    STA $0000  [$06:0000]   A:0000 X:00FE Y:0006 P:envmxdIZc
+$00/E60D AD AE 1F    LDA $1FAE  [$06:1FAE]   A:0000 X:00FE Y:0006 P:envmxdIZc
+$00/E610 29 FF 00    AND #$00FF              A:0000 X:00FE Y:0006 P:envmxdIZc
+$00/E613 0A          ASL A                   A:0000 X:00FE Y:0006 P:envmxdIZc
+$00/E614 AA          TAX                     A:0000 X:00FE Y:0006 P:envmxdIZc
+$00/E615 BD E4 A8    LDA $A8E4,x[$06:A8E4]   A:0000 X:0000 Y:0006 P:envmxdIZc
+$00/E618 18          CLC                     A:001E X:0000 Y:0006 P:envmxdIzc
+$00/E619 6D 00 00    ADC $0000  [$06:0000]   A:001E X:0000 Y:0006 P:envmxdIzc
+$00/E61C AA          TAX                     A:001E X:0000 Y:0006 P:envmxdIzc
+$00/E61D BD E4 A8    LDA $A8E4,x[$06:A902]   A:001E X:001E Y:0006 P:envmxdIzc
+$00/E620 AA          TAX                     A:0088 X:001E Y:0006 P:envmxdIzc
+$00/E621 E2 20       SEP #$20                A:0088 X:0088 Y:0006 P:envmxdIzc
+$00/E623 60          RTS   

@@ -1,0 +1,7 @@
+7E0380~0400: Palettes
+
+7E1F18  : CheckPoint Infos
+
+
+7E1FAE.w: Level
+7E1FB5.w: Point

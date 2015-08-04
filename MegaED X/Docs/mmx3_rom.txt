@@ -1,0 +1,6 @@
+Routines:
+00BE3F: Take pointer from $10
+
+
+Pointers:
+35F800: Level layout pointer

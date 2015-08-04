@@ -1,0 +1,7 @@
+868133: Palettes
+86A780: CheckPoint
+868D24: Layouts
+868D93: Scenes
+868E02: Blocks
+868E71: Maps
+86F56F: GFXs compressed
