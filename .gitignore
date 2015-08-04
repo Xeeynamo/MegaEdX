@@ -29,7 +29,11 @@
 
 # Visual Studio things
 *.sdf
-*.sln
+*.opensdf
+*.aps
+*.pdb
+*.log
+/.vs
 /ipch
-/Debug
+*/Debug
 /Release

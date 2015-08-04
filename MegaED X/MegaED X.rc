@@ -67,7 +67,6 @@ BEGIN
     POPUP "&Help"
     BEGIN
         MENUITEM "&About",                      IDM_ABOUT
-        MENUITEM "Donate",                      ID_HELP_DONATE
     END
 END
 
@@ -94,8 +93,8 @@ STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSM
 CAPTION "About MegaED X"
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
-    LTEXT           "Version 1.0",IDC_STATIC,118,73,51,8,SS_NOPREFIX,WS_EX_TRANSPARENT
-    LTEXT           "Halloween release\nDeveloped by Xeeynamo\nxeeynamo.blogspot.com",IDC_STATIC,118,86,84,24,0,WS_EX_TRANSPARENT
+    LTEXT           "Version 1.0.1",IDC_STATIC,118,73,51,8,SS_NOPREFIX,WS_EX_TRANSPARENT
+    LTEXT           "\nDeveloped by Xeeynamo\nxeeynamo.blogspot.com",IDC_STATIC,118,86,84,24,0,WS_EX_TRANSPARENT
 END
 
 
@@ -332,6 +331,7 @@ BEGIN
         VALUE "Translation", 0x410, 1200
     END
 END
+
 
 /////////////////////////////////////////////////////////////////////////////
 //

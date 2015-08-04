@@ -228,6 +228,10 @@
     <Text Include="Docs\mmx3_ram.txt" />
     <Text Include="Docs\mmx3_rom.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Teleport.bmp" />
+    <Image Include="Resources\X.bmp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

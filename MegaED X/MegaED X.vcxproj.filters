@@ -228,4 +228,12 @@
       <Filter>Docs\mmx1</Filter>
     </Text>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Teleport.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\X.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
 </Project>

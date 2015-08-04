@@ -270,9 +270,6 @@ LOC_RUNEMU:
 		case IDM_ABOUT:
 			DialogBoxParam(hInst, MAKEINTRESOURCE(IDD_ABOUTBOX), hWnd, (DLGPROC)AboutProc, NULL);
 			break;
-		case ID_HELP_DONATE:
-			ShellExecute(hWnd, "open", "http://digitalwork.altervista.org/digitalwork/index.php?page=donate", 0, 0, SW_SHOWDEFAULT);
-			break;
 		case IDM_EXIT:
 			DestroyWindow(hWnd);
 			break;
